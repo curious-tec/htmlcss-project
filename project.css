@@ -8,6 +8,9 @@ body {
     overflow-x: hidden;
 }
 
+
+
+
 .header {
     height: 200px;
     width: 100%;
@@ -115,33 +118,80 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     float: right;
 }
+.d1 .o{
+
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
+    border-top: 5px solid; 
+    margin-left: 5px;
+}
  .d1:hover+.c1{
     display: block;
     color:black;
     font-size: large;
+    background-color: white;
+  
+   
 }
  .c1{
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 85px;
     
+    
+}.d2 .m{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
+    border-top: 5px solid; 
+    margin-left: 5px;
 }
 
 .d2:hover+.c2{
     display: block;
     color:black;
     font-size: large;
+    background-color: white;
+  
 }
  .c2{
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 170px;
     
 }
+.d3 .g{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
+    border-top: 5px solid; 
+    margin-left: 5px;
+}
+
+
 
 .d3:hover+.c3{
     display: block;
     color:black;
     font-size: large;
+    background-color: white;
+    
 }
  .c3{
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 250px;
+    
     
 }
 
@@ -170,6 +220,10 @@ body {
    width: 100%;
    height: 643px;
    margin-top: 200px;
+}
+.main p{
+    word-wrap: break-word;
+    max-width: 600px;
 }
 .section {
     background-image: url(back.avif);
@@ -484,4 +538,6 @@ margin-top: 65px;
     font-size: large;
     font-weight: 600;
   }
+
+
 
